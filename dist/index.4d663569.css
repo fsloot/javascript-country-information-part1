@@ -1,0 +1,47 @@
+.worldmap {
+  justify-content: center;
+  display: flex;
+}
+
+.worldmap-image {
+  max-width: 70%;
+}
+
+ul {
+  list-style: none;
+}
+
+.border {
+  background-color: #d3d3d3;
+  border-style: dotted;
+  flex-direction: column;
+  margin: 30px;
+  display: flex;
+}
+
+.blue {
+  color: #00f;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #ff0;
+}
+
+.purple {
+  color: purple;
+}
+
+.flag {
+  width: 100px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

@@ -1,0 +1,56 @@
+/*.one {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*     uitlijning van begin tot eind (omdat direction = column is dat in dit geval boven tot onder, verticaal)*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+.worldmap {
+    display: flex;
+    justify-content: center;
+}
+
+.worldmap-image {
+    /*max-height: 25%;*/
+    max-width: 70%;
+}
+
+ul {
+    list-style: none;
+}
+
+.border {
+    background-color: lightgray;
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    /*margin-right: 50vw;*/
+    /*uitlijning van begin tot eind (omdat direction = column is dat in dit geval boven tot onder, verticaal)*/
+    /*justify-content: flex-end;*/
+}
+
+.blue {
+    color : blue;
+}
+
+.green {
+    color : green;
+}
+
+.red {
+    color : red;
+}
+
+.yellow {
+    color : yellow;
+}
+
+.purple {
+    color : purple;
+}
+
+.flag {
+    width : 100px;
+    height : 60px
+}
