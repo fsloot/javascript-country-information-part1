@@ -1,0 +1,51 @@
+/*.one {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*     uitlijning van begin tot eind (omdat direction = column is dat in dit geval boven tot onder, verticaal)*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+.worldmap {
+    display: flex;
+    justify-content: center;
+}
+
+.worldmap-image {
+    max-width: 75%;
+}
+
+ul {
+    list-style: none;
+}
+
+.border {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.blue {
+    color : blue;
+}
+
+.green {
+    color : green;
+}
+
+.red {
+    color : red;
+}
+
+.yellow {
+    color : yellow;
+}
+
+.purple {
+    color : purple;
+}
+
+.flag {
+    width : 100px;
+    height : 60px
+}
