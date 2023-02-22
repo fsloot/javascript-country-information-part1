@@ -588,29 +588,23 @@ function createCountryList(countryArray) {
     country.innerHTML = `${listCountries.join("")}`;
 }
 function findContinentColor(countryArray) {
-    let colour = "";
     switch(countryArray.region){
         case "Africa":
             console.log("Colour is blue");
-            colour = "blue";
-            break;
+            return "blue";
         case "Americas":
             console.log("Colour is green");
-            colour = "green";
-            break;
+            return "green";
         case "Asia":
             console.log("Colour is red");
-            colour = "red";
-            break;
+            return "red";
         case "Europe":
             console.log("Colour is yellow");
-            colour = "yellow";
-            break;
+            return "yellow";
         default:
             console.log("Colour is purple");
-            colour = "purple";
+            return "purple";
     }
-    return colour;
 }
 
 },{"axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jo6P5":[function(require,module,exports) {

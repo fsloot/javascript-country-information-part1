@@ -41,29 +41,26 @@ function createCountryList(countryArray) {
 
 function findContinentColor(countryArray) {
 
-   let colour = '';
-
         switch (countryArray.region) {
             case 'Africa':
                 console.log("Colour is blue")
-                colour = 'blue'
+                return 'blue'
                 break;
             case 'Americas':
                 console.log("Colour is green")
-                colour = 'green'
+                return 'green'
                 break;
             case 'Asia':
                 console.log("Colour is red")
-                colour = 'red'
+                return 'red'
                 break;
             case 'Europe':
                 console.log("Colour is yellow")
-                colour = 'yellow'
+                return 'yellow'
                 break;
             default:
                 console.log("Colour is purple")
-                colour = 'purple'
+                return 'purple'
         }
-    return colour
 };
 

@@ -4,7 +4,7 @@
 }
 
 .worldmap-image {
-  max-width: 70%;
+  max-width: 75%;
 }
 
 ul {
@@ -13,9 +13,8 @@ ul {
 
 .border {
   background-color: #d3d3d3;
-  border-style: dotted;
   flex-direction: column;
-  margin: 30px;
+  justify-content: flex-end;
   display: flex;
 }
 
